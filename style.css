@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.title{
+    font-size: 36px;
+    color: white;
+    font-family: cursive, sans-serif;
+    position: relative;
+    top: 200px;
+    left: 0px;        
+}
+.avatar img{
+    border-radius: 50%;
+    height: 300px;
+    width: 320px;
+    position: relative;
+    left: 1000px;
+    top: 60;
+    image-resolution: from-image;
+    
+}
+.content{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: cursive, fantasy;
+}
+.skill{
+    font-size: 20px;
+    font-family: cursive;
+    color: aqua;
+}
+.skillstxt{
+    font-size: 26px;
+    color: cornflowerblue;
+    font-family: cursive, monospace;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background2.PNG);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.htmlimg p{
+    color: white;
+    font-family: sans-serif, fantasy;
+    font-size: 16px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.colum {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.pythonimg p{
+color: white;
+    font-size: 16px;
+    font-family: sans-serif, fantasy;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.cssimg{
+    left: 900px;
+    position: relative;
+    bottom: 348px;
+}
+.cssimg p{
+    font-size: 16px;
+    font-family: sans-serif, fantasy;
+    color: white;
+}
+.colums {
+    float: left;
+    padding: 5px;
+    position: relative;
+    left: -500;
+    
+}
+.rows::after{
+    content: "";
+    clear: both;
+}
+.jsimg p{
+    color: white;
+    font-family: sans-serif, fantasy;
+    font-size: 16;
+    
+
+}
+.jsimg img{
+    
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.headingaboutme{
+    color: white;
+    font-family: cursive, fantasy;
+    font-size: 26px;
+}
+.c#img{
+    position: relative;
+    bottom: 983px;
+}
